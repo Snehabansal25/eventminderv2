@@ -17,8 +17,8 @@ export default function Home() {
         <span className="text-lg" >StreamLine your events with <FlipWords className="text-lg" words={words} /></span><br/>
         <div className="relative">
         <div className="flex flex-row gap-2">
-          <Link href="/auth/register"><Button><UserRoundPlus/> Register</Button></Link>
-          <Link href="/auth/login"><Button><LogInIcon/> Log-In</Button></Link>
+          <Link href="/auth/register"><Button variant={"default"} className=" hover:bg-cyan-500"><UserRoundPlus/> Register</Button></Link>
+          <Link href="/auth/login"><Button variant={"default"}className="dark:hover:bg-cyan-500 hover:bg-cyan-500"><LogInIcon/>Log-In</Button></Link>
         </div>
         </div>
       </BackgroundLines>
